@@ -2,5 +2,5 @@ language: cpp
 os: windows
 
 before_script:
-  - ./task1.ps1
-  - ./task3.ps1
+  - PowerShell -File task1.ps1
+  - PowerShell -File task3.ps1
