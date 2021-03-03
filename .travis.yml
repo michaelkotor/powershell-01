@@ -3,5 +3,4 @@ os: windows
 
 before_script:
   - powershell -c "Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope LocalMachine"
-  - PowerShell -File task1.ps1
   - PowerShell -File task3.ps1
