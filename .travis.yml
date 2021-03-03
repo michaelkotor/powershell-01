@@ -1,0 +1,5 @@
+os: windows
+
+before_script:
+  - ./task1.ps1
+  - ./task3.ps1
